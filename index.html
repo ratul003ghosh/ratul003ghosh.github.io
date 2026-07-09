@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ratul Ghosh | Portfolio</title>
+    <meta name="description" content="Portfolio of Ratul Ghosh - Software Developer and CSE Student">
+    
+    <!-- Premium Google Fonts: Poppins (Headers) and Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Phosphor Icons -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-content">
+            <a href="#home" class="logo">Ratul<span>Ghosh</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-item active">Home</a></li>
+                <li><a href="#about" class="nav-item">About</a></li>
+                <li><a href="#education" class="nav-item">Education</a></li>
+                <li><a href="#experience" class="nav-item">Experience</a></li>
+                <li><a href="#projects" class="nav-item">Projects</a></li>
+                <li><a href="#contact" class="nav-item">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text">
+                <span class="greeting">Hello!</span>
+                <h1>I'm <span class="highlight">Ratul Ghosh</span></h1>
+                <h2 class="typing-container">A <span id="typing-text"></span><span class="cursor">|</span></h2>
+                <p class="bio">I am a CSE Undergraduate from Bangladesh, passionate about building impactful software, engaging in competitive programming, and constantly pushing my technical boundaries.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image-container">
+                <div class="blob"></div>
+                <img src="images/Ratul.png" alt="Ratul Ghosh" class="hero-image">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="section-header">
+            <h2>About <span class="highlight">Me</span></h2>
+        </div>
+        <div class="about-grid">
+            <div class="about-bio glass">
+                <h3>Who I Am</h3>
+                <p>I am a dedicated problem solver and software developer. I thrive on logic, algorithms, and creating efficient systems. My journey in tech is driven by curiosity and a deep passion for continuous learning.</p>
+                
+                <ul class="about-list">
+                    <li><i class="ph-fill ph-caret-right"></i> <strong>Name:</strong> Ratul Ghosh</li>
+                    <li><i class="ph-fill ph-caret-right"></i> <strong>Languages:</strong> English (IELTS 7.0), Bangla</li>
+                    <li><i class="ph-fill ph-caret-right"></i> <strong>Interests:</strong> Movies, Web Series, Competitive Programming, Chess, Gaming, Teaching, Research</li>
+                </ul>
+            </div>
+            
+            <div class="about-skills glass">
+                <h3>Technical Arsenal</h3>
+                
+                <div class="skill-group">
+                    <span class="skill-tag">C / C++</span>
+                    <span class="skill-tag">Java</span>
+                    <span class="skill-tag">Python</span>
+                    <span class="skill-tag">SQL</span>
+                    <span class="skill-tag">Linux / Red Hat</span>
+                    <span class="skill-tag">Git</span>
+                    <span class="skill-tag">Data Structures</span>
+                    <span class="skill-tag">Algorithms</span>
+                    <span class="skill-tag">Excel</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education-section">
+        <div class="section-header">
+            <h2>My <span class="highlight">Education</span></h2>
+        </div>
+        <div class="edu-grid">
+            <div class="edu-card glass">
+                <div class="edu-image-wrapper">
+                    <img src="images/edu_uiu.jpg" alt="UIU" onerror="this.src='https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=500&q=80'">
+                </div>
+                <div class="edu-content">
+                    <div class="edu-date">2024 - Present</div>
+                    <h3>B.Sc. in Computer Science and Engineering</h3>
+                    <h4>United International University (UIU)</h4>
+                    <p class="cgpa">CGPA: 3.99</p>
+                </div>
+            </div>
+
+            <div class="edu-card glass">
+                <div class="edu-image-wrapper">
+                    <img src="images/edu_ndc.jpg" alt="Notre Dame College" onerror="this.src='https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=500&q=80'">
+                </div>
+                <div class="edu-content">
+                    <div class="edu-date">2019 - 2021</div>
+                    <h3>Higher Secondary Certificate (HSC)</h3>
+                    <h4>Notre Dame College</h4>
+                    <p>Science Group (Group: 10)</p>
+                    <p class="cgpa">GPA: 5.00</p>
+                </div>
+            </div>
+
+            <div class="edu-card glass">
+                <div class="edu-image-wrapper">
+                    <img src="images/edu_casc.jpg" alt="Civil Aviation School" onerror="this.src='https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=500&q=80'">
+                </div>
+                <div class="edu-content">
+                    <div class="edu-date">Pre-2019</div>
+                    <h3>Secondary School Certificate (SSC)</h3>
+                    <h4>Civil Aviation School and College</h4>
+                    <p>Science Group</p>
+                    <p class="cgpa">GPA: 5.00</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience & Certifications -->
+    <section id="experience" class="experience-section">
+        <div class="section-header">
+            <h2>Experience & <span class="highlight">Achievements</span></h2>
+        </div>
+        
+        <div class="resume-container">
+            <!-- Experience 1 -->
+            <div class="resume-wrap glass">
+                <span class="date">Fall 2025</span>
+                <h3>Undergraduate Assistant (UGA)</h3>
+                <span class="position">United International University</span>
+                <p class="mt-4">Assigned as an Undergraduate Assistant for the prestigious <strong>Introduction to Computer Systems</strong> course. Entrusted with the responsibility of assisting faculty members in course delivery, mentoring junior students, explaining complex computer architecture and systems concepts, evaluating assignments, and ensuring a smooth academic experience for the classroom. This role significantly sharpened my technical communication and leadership skills.</p>
+            </div>
+
+            <!-- Experience 2 -->
+            <div class="resume-wrap glass">
+                <span class="date">2024 - Present</span>
+                <h3>Chief Research and Publications Officer</h3>
+                <span class="position">Earth's Ants</span>
+                <p class="mt-4">Leading the research wing of Earth's Ants, a prominent organization. I am responsible for overseeing all publications, conducting deep research initiatives, and managing a team of dedicated members. My role involves conceptualizing research topics, editing publications, and ensuring high-quality output that aligns with the organization's core values.</p>
+            </div>
+
+            <!-- Experience 3 -->
+            <div class="resume-wrap glass">
+                <span class="date">May 24, 2025</span>
+                <h3>Workshop Host & Organizer</h3>
+                <span class="position">Dhaka Residential Model College</span>
+                <p class="mt-4">Successfully hosted and organized the highly impactful workshop titled <strong>"Minds and Bins: Understanding Ourselves Through Environmental Psychology, Sound Pollution & Clean Campus Culture"</strong>. I received a Certificate of Recognition for Earth's Ants for orchestrating this massive event, managing logistics, leading the volunteer teams, and engaging students in critical environmental and psychological awareness topics.</p>
+            </div>
+
+            <!-- Experience 4 -->
+            <div class="resume-wrap glass">
+                <span class="date">2024 - 2025</span>
+                <h3>Event Organizer - Sustainovate Season 1.0</h3>
+                <span class="position">Earth's Ants</span>
+                <p class="mt-4">Played a pivotal role in organizing Sustainovate Season 1.0 alongside Earth's Ants. Handled end-to-end event management, participant coordination, and execution strategies. This massive initiative aimed to foster sustainable innovation among youth, requiring immense dedication, teamwork, and crisis management skills.</p>
+            </div>
+
+            <!-- Experience 5 -->
+            <div class="resume-wrap glass">
+                <span class="date">2022 - Present</span>
+                <h3>Home Tutor (2+ Years)</h3>
+                <span class="position">Self-Employed</span>
+                <p class="mt-4">As a fellow student and human being, I believe it is my duty to teach others what I have learned. I have been providing dedicated, personalized academic tutoring for over two years. I tailor my lesson plans to individual learning styles, mentoring students to achieve conceptual clarity and significantly improved academic performance.</p>
+            </div>
+
+            <!-- Experience 6 -->
+            <div class="resume-wrap glass">
+                <span class="date">2024 & 2025</span>
+                <h3>ICPC Preliminary Participant</h3>
+                <span class="position">International Collegiate Programming Contest</span>
+                <p class="mt-4">Actively participated in the rigorous ICPC Preliminary contests for both 2024 and 2025. Competed against the top university teams across the nation, demonstrating advanced algorithmic efficiency and high-speed problem-solving capabilities under extreme time constraints.</p>
+            </div>
+
+            <!-- Experience 7 -->
+            <div class="resume-wrap glass">
+                <span class="date">2024 - 2025</span>
+                <h3>BeatCode Participant</h3>
+                <span class="position">BeatCode 243 & 253</span>
+                <p class="mt-4">Participated in BeatCode 243 and 253 programming competitions. Tackled complex data structure challenges and refined my logic optimization strategies against highly skilled competitive programmers.</p>
+            </div>
+
+            <!-- Experience 8 -->
+            <div class="resume-wrap glass">
+                <span class="date">August 2025</span>
+                <h3>Rank 15</h3>
+                <span class="position">Coders Combat 4.0</span>
+                <p class="mt-4">Competed in Coders Combat 4.0 and secured Rank 15. Showcased strong logical deduction and optimized coding practices in a highly competitive intra-university setting.</p>
+            </div>
+
+            <!-- Experience 7 -->
+            <div class="resume-wrap glass">
+                <span class="date">Certification</span>
+                <h3>Red Hat System Administration I & II</h3>
+                <span class="position">Red Hat</span>
+                <p class="mt-4">Successfully completed the rigorous Red Hat System Administration I and II courses. Gained extensive hands-on expertise in Linux environments, command-line operations, server management, security configurations, and shell scripting. Due to my excellent performance, I also earned a 50% discount voucher for the official certification exam.</p>
+            </div>
+
+            <!-- Experience 8 -->
+            <div class="resume-wrap glass">
+                <span class="date">Certification</span>
+                <h3>IELTS (Academic)</h3>
+                <span class="position">British Council</span>
+                <p class="mt-4">Achieved a highly competitive <strong>Overall Band Score of 7.0</strong> in the International English Language Testing System (IELTS), with absolutely no individual band score falling below 6.5. This proves my exceptional proficiency in English reading, writing, listening, and speaking at an academic and professional level.</p>
+            </div>
+
+            <!-- Experience 9 -->
+            <div class="resume-wrap glass">
+                <span class="date">Certification</span>
+                <h3>Excel Essentials for Workplace Productivity</h3>
+                <span class="position">Unicef</span>
+                <p class="mt-4">Completed an intensive corporate training program certified by Unicef. Mastered advanced Microsoft Excel functionalities, including data visualization, pivot tables, complex formulas, and macro recording, making me highly proficient in workplace data management and productivity.</p>
+            </div>
+
+            <!-- Experience 10 -->
+            <div class="resume-wrap glass">
+                <span class="date">Certification</span>
+                <h3>English Presentation Course</h3>
+                <span class="position">Saifur's</span>
+                <p class="mt-4">Completed an intensive course focused on public speaking, corporate presentations, and advanced communication skills. Overcame stage fright and developed the ability to confidently present complex technical and non-technical ideas to large audiences.</p>
+            </div>
+
+            <!-- Experience 11 -->
+            <div class="resume-wrap glass">
+                <span class="date">Certification</span>
+                <h3>National Skill Standard Basic Course</h3>
+                <span class="position">Bangladesh Technical Education Board (BTEB)</span>
+                <p class="mt-4">Successfully underwent standard technical training authorized by the government's technical education board, solidifying my foundational technical competencies and practical industry-standard skills.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="section-header">
+            <h2>My <span class="highlight">Projects</span></h2>
+        </div>
+        <div class="projects-grid">
+            
+            <div class="project-card glass">
+                <div class="project-image-wrapper">
+                    <img src="images/proj_jibika.jpg" alt="Jibika Job Portal" onerror="this.src='https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=500&q=80'">
+                </div>
+                <div class="project-content">
+                    <h3>Jibika Job Portal</h3>
+                    <p>A flagship full-stack application for connecting employers with candidates, featuring advanced database integrations.</p>
+                    <div class="tags">
+                        <span>Full Stack</span>
+                        <span>DBMS</span>
+                    </div>
+                    <a href="https://github.com/ratul003ghosh" target="_blank" class="proj-link">View Repository <i class="ph-bold ph-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card glass">
+                <div class="project-image-wrapper">
+                    <img src="images/proj_pacman.jpg" alt="Pacman AI Search" onerror="this.src='https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=500&q=80'">
+                </div>
+                <div class="project-content">
+                    <h3>Pacman AI Search Algorithms</h3>
+                    <p>Implemented Depth-First Search, Breadth-First Search, Uniform Cost Search, and A* algorithms for maze solving.</p>
+                    <div class="tags">
+                        <span>Python</span>
+                        <span>AI Lab</span>
+                    </div>
+                    <a href="https://github.com/ratul003ghosh" target="_blank" class="proj-link">View Repository <i class="ph-bold ph-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card glass">
+                <div class="project-image-wrapper">
+                    <img src="images/proj_dbms.jpg" alt="DBMS Projects" onerror="this.src='https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=500&q=80'">
+                </div>
+                <div class="project-content">
+                    <h3>DBMS Mini Projects</h3>
+                    <p>Academic database management systems focused on schema design, normalization, and complex querying.</p>
+                    <div class="tags">
+                        <span>SQL</span>
+                        <span>Database Design</span>
+                    </div>
+                    <a href="https://github.com/ratul003ghosh" target="_blank" class="proj-link">View Repository <i class="ph-bold ph-arrow-right"></i></a>
+                </div>
+            </div>
+
+            <div class="project-card glass">
+                <div class="project-image-wrapper">
+                    <img src="images/proj_cp.jpg" alt="Competitive Programming" onerror="this.src='https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&q=80'">
+                </div>
+                <div class="project-content">
+                    <h3>Competitive Programming</h3>
+                    <p>My repository containing solutions to hundreds of algorithmic problems across various online judges.</p>
+                    <div class="tags">
+                        <span>C++</span>
+                        <span>Algorithms</span>
+                    </div>
+                    <a href="https://github.com/ratul003ghosh" target="_blank" class="proj-link">View Repository <i class="ph-bold ph-arrow-right"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="contact-header text-center">
+            <h1 class="big-bg-text">Contact</h1>
+            <h2 class="contact-title">Contact Me</h2>
+            <p class="contact-subtitle">Reach out to me, anytime!</p>
+        </div>
+        
+        <div class="contact-grid">
+            <!-- Card 1: Address -->
+            <div class="contact-card">
+                <div class="icon-circle">
+                    <i class="ph-fill ph-map-pin"></i>
+                </div>
+                <h3>ADDRESS</h3>
+                <p>Mohakhali, Dhaka,<br>Bangladesh</p>
+            </div>
+            
+            <!-- Card 2: Contact Number -->
+            <div class="contact-card">
+                <div class="icon-circle">
+                    <i class="ph-fill ph-phone"></i>
+                </div>
+                <h3>CONTACT NUMBER</h3>
+                <p>01964530950</p>
+            </div>
+            
+            <!-- Card 3: Email Address -->
+            <div class="contact-card">
+                <div class="icon-circle">
+                    <i class="ph-fill ph-paper-plane-tilt"></i>
+                </div>
+                <h3>EMAIL ADDRESS</h3>
+                <p>gratul311@gmail.com</p>
+            </div>
+            
+            <!-- Card 4: WhatsApp -->
+            <div class="contact-card">
+                <div class="icon-circle">
+                    <i class="ph-fill ph-whatsapp-logo"></i>
+                </div>
+                <h3>WHATSAPP</h3>
+                <p><a href="https://wa.me/8801964530950" target="_blank" class="contact-link">Message me on<br>WhatsApp</a></p>
+            </div>
+        </div>
+
+        <div class="contact-cta">
+            <h3>Have a Question?</h3>
+            <a href="mailto:gratul311@gmail.com" class="btn-cta">CLICK HERE</a>
+        </div>
+
+        <div class="social-footer">
+            <span>Find me on</span>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/ratul-ghosh-7bb172377/" target="_blank"><i class="ph-fill ph-linkedin-logo"></i></a>
+                <a href="https://github.com/ratul003ghosh" target="_blank"><i class="ph-fill ph-github-logo"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Ratul Ghosh. Built with clean code.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
